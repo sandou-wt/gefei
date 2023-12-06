@@ -1,0 +1,26 @@
+h1 {
+  font-size: 30px;
+}
+
+body {
+  background-color: #232425;
+  color: #a9a9b3;
+}
+a {
+  color: #a9a9b3;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: var(--d42-tree__root-scrollbar-thumb--bg);
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
